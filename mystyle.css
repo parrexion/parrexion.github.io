@@ -1,0 +1,87 @@
+body {
+	color: white;
+	/*background-color: #AD2173;*/
+	background-color: #732313;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	margin-left: 20px;
+	margin-right: 40px;
+	font-size: 100%;
+	font-family: "Lucida Console", Monaco, monospace;
+	/*font-family: "Courier New", Courier, monospace;*/
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.top_picture {
+	float: top;
+	padding: 50px;
+}
+
+.side_picture {
+	float: left;
+	width: 20%;
+	height: 30%;
+	padding: 50px;
+}
+
+.ryuuji {
+	width: 20%;
+	height: 30%;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.Dicefighters_body {
+    bottom: 200px;
+    display: block;
+}
+
+.abouttxt {
+    bottom: 200px;
+    display: block;
+	max-width: 600px;
+	text-align: center;
+	margin: auto;
+}
+
+.nonary_header {
+	max-width: 50%;
+	height: 100px;
+}
+
+.image_header {
+	max-width: 50%;
+	height: 150px;
+}
+
+.links {
+	padding: 50px;
+	width: 1200px;
+	max-width: 80%;
+	margin-bottom: 50px;
+    border: 3px solid #FFFFFF;
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+	color: orange;
+	font-style: italic;
+	margin-top: 100px;
+}
+
+.about {
+	float: right;
+	margin: auto;
+}
+
+

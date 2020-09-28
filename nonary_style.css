@@ -1,0 +1,134 @@
+body {
+	color: white;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	margin-left: 20px;
+	margin-right: 40px;
+	font-size: 100%;
+	/*font-family: "Lucida Console", Monaco, monospace;*/
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.ztd {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.expl {
+	font-size: 125%;
+	margin: auto;
+	max-width: 800px;
+}
+
+.loading {
+	margin: auto;
+	text-align: center;
+}
+
+.endgame {
+	margin: auto;
+	text-align: center;
+}
+
+h2.center {
+	color: white;
+}
+
+p.current {
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #AD2173;
+	color: white;
+}
+
+.floating-sound {
+	color: yellow;
+	vertical-align: top;
+	font-size: 200%;
+	display: inline-block;
+    width: auto;
+    min-height: 10px;
+    margin: 10px;
+    border: 3px solid #AD2173;  
+}
+
+.floating-box {
+	color: white;
+	display: inline-block;
+    min-width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;
+	text-align: center;
+}
+.boxCont {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drop {
+	min-width: 80px;
+	color: black;
+	background: red;
+	font-size: 150%;
+	text-align-last:center;
+}
+
+.unanswered {
+	background-color: darkred;
+}
+
+.submit, .retry {
+	margin: 30px;
+}
+
+.tex {
+	text-align: center;
+	margin: auto;
+	max-width: 500px;
+}
+
+ 
+.optlist {
+	font-size: 125%;
+	list-style-type: none;
+}
+
+footer {
+	text-align: center;
+	color: orange;
+	font-style: italic;
+}
+
+.about {
+	float: right;
+	margin: auto;
+}
+
+.aboutTxt {
+	margin: auto;
+	max-width: 800px;
+}
+
+.err {
+	color: red;
+	margin: 30px;
+	text-indent: 40px;
+	text-transform: capitalize;
+	line-height: 1.25;
+	word-spacing: 10px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+

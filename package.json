@@ -1,0 +1,50 @@
+{
+    "app_name": "public_html",
+    "window": {
+        "resizable": false,
+        "width": 1200,
+        "transparent": false,
+        "show_in_taskbar": true,
+        "show": true,
+        "kiosk": false,
+        "always_on_top": false,
+        "frame": true,
+        "as_desktop": false,
+        "title": "public_html",
+        "visible": true,
+        "kiosk_emulation": false,
+        "fullscreen": false,
+        "height": 800,
+        "toolbar": false
+    },
+    "single-instance": true,
+    "nodejs": true,
+    "webexe_settings": {
+        "custom_script": "",
+        "linux-x64": false,
+        "linux-x32": false,
+        "download_dir": "C:/Users/Parrexion/AppData/Local/Web2Executable/Web2Executable/files/downloads",
+        "uncompressed_folder": false,
+        "nw_compression_level": 0,
+        "windows-x64": true,
+        "export_dir": "output",
+        "mac-x64": false,
+        "sdk_build": false,
+        "force_download": false,
+        "mac-x32": false,
+        "windows-x32": true,
+        "nw_version": "0.15.0"
+    },
+    "name": "Nonary-Game-Quiz",
+    "scripts": {
+        "start": "nw ."
+    },
+    "additional_trust_anchors": [],
+    "webkit": {
+        "plugin": false,
+        "java": false,
+        "page-cache": false
+    },
+    "version": "0.1.0",
+    "main": "nonary_game.html"
+}
