@@ -11,7 +11,7 @@ function loadingScreen(gamemode,correct){
 	img = document.createElement("img");
 	img.setAttribute("src", "");
 	div.appendChild(img);
-	img.setAttribute("src", "images/loading.gif");
+	img.setAttribute("src", "images/ZE/loading.gif");
 	// setTimeout(function() { showResults(correct) }, 2300);
 	// cleanUp2();
 	showResults(correct);
@@ -37,7 +37,7 @@ function getImage(correct){
 	div.setAttribute("id","pic");
 	div.setAttribute("class","pic");
 	res = document.createElement("img");
-	res.setAttribute("src","images/results.png");
+	res.setAttribute("src","images/ZE/results.png");
 	res.setAttribute("class","ztd");
 	div.appendChild(res);
 	div.appendChild(document.createElement("br"));
@@ -67,7 +67,7 @@ function retryButton(){
 	but = document.createElement("img");
 	but.setAttribute("id","retryButton");
 	but.setAttribute("class","retry");
-	but.setAttribute("src","images/retry_but.png");
+	but.setAttribute("src","images/ZE/retry_but.png");
 	but.setAttribute("onClick","retry()");
 	div = document.createElement("div");
 	div.appendChild(but);

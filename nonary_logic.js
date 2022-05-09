@@ -140,12 +140,12 @@
 	
 		img = document.createElement("img");
 		img.setAttribute("class","ztd");
-		img.setAttribute("src","images/songs.png");
+		img.setAttribute("src","images/ZE/songs.png");
 		mus.appendChild(img);
 		mus.appendChild(document.createElement("br"));
 		img = document.createElement("img");
 		img.setAttribute("class","ztd");
-		img.setAttribute("src","images/locations.png");
+		img.setAttribute("src","images/ZE/locations.png");
 		f.appendChild(img);
 		f.appendChild(document.createElement("br"));
 		
@@ -163,7 +163,7 @@
 		var but, div;
 		but = document.createElement("img");
 		but.setAttribute("class","submit");
-		but.setAttribute("src","images/submit_but.png");
+		but.setAttribute("src","images/ZE/submit_but.png");
 		but.setAttribute("onClick","submitAnswers()");
 		div = document.getElementById("results");
 		div.appendChild(but);

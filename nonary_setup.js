@@ -23,7 +23,7 @@ function createOptions(){
 	
 	img = document.createElement("img");
 	img.setAttribute("class","ztd");
-	img.setAttribute("src","images/gamemodes.png");
+	img.setAttribute("src","images/ZE/gamemodes.png");
 	div.appendChild(img);
 	
 	list = document.createElement("ul");
@@ -51,7 +51,7 @@ function createButtons(name,index){
 	but = document.createElement("img");
 	but.setAttribute("id","startGameButton");
 	but.setAttribute("class","submit");
-	but.setAttribute("src","images/" + name + ".png");
+	but.setAttribute("src","images/ZE/" + name + ".png");
 	but.setAttribute("onClick","startGame(" + index + ")");
 	div = document.getElementById("options");
 	div.appendChild(but);
