@@ -27,7 +27,7 @@ footer {
 	text-align: center;
 	color: orange;
 	font-style: italic;
-	margin-top: 100px;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
 
@@ -37,18 +37,18 @@ footer {
 
 .top_picture {
 	float: top;
-	padding: 50px;
 	width: 500px;
 }
 
 .side_picture {
-	/* float: right; */
-	/* width: 20%; */
-	/* height: 30%; */
 	padding: 50px;
 	width: 275px;
 	height: 275px;
-	/* transform: scaleX(-1); */
+}
+
+.intro {
+	width: 600px;
+	margin: 50px auto;
 }
 
 .ryuuji {
@@ -66,12 +66,6 @@ footer {
 	height: 20%;
 }
 
-.intro {
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
 .abouttxt {
     bottom: 200px;
     display: block;
@@ -80,29 +74,49 @@ footer {
 	margin: auto;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 50px 30px;
+	padding: 10px;
+}
+
+
+.card {
+	padding: 10px;
+    border: 3px solid #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 550px;
+	text-align: center;
+	/* margin: auto; */
+}
 .links {
-	padding: 40px;
-	width: 500px;
+	padding: 10px;
+	width: 550px;
 	height: 400px;
-	max-width: 80%;
-	margin-bottom: 50px;
     border: 3px solid #FFFFFF;
 	display: inline-block;
 }
 
 .link_header {
 	object-fit: contain;
-	max-width: 100%;
-	height: 150px;
-	float: top;
+	/* object-fit: cover; */
+	max-width: 90%;
+	height: 130px;
 }
 
 .link_body {
-    margin-top: 20px;
-    margin-bottom: 20px;
-	height: 200px;
-    display: block;
+	min-height: 80px;
+	padding: 10px;
 }
+
+.link_button {
+	margin-bottom: 10px;
+}
+
+
+
+
 
 .footer_icon {
 	width: 48px;
