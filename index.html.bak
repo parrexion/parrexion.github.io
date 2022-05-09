@@ -11,40 +11,50 @@
 <div class="dice_fighters_header">
 </div>
 <div>
+	<img src="images/ParrexionGamesLogoWhite.png" class="top_picture">
 	<p class="intro">
-	<img src="images/parrexion_header.png" class="top_picture">
-	<img src="images/ryuuji.png" class="side_picture">
 	Welcome to my home page.
 	Here you can find a lot of stuff I've done.
 	There are a lot of things I've done in my life so it's good to be able 
 	to show what I've accomplished.
 	</p>
 </div>
-<br>
+
+<div>
 <div class="links">
-	<div class="dice_fighters_header">
-		<img src="images/Dicefighters_header_small.jpg" class="image_header">
+	<div>
+		<img src="images/Dicefighters_header_small.jpg" class="link_header">
 	</div>
-	<p class="Dicefighters_body">
-		The game I made in high school and later improved upon
+	<p class="link_body">
+		The game i made in high school and later improved upon.
 	</p>
 	<a href="DiceFighters.html"> <img src="images/Dicefighters_button.png"></a>
 </div>
-
 <div class="links">
 	<div>
-		<img src="images/NONARYGAMEQUIZ.png" class="nonary_header">
+		<img src="images/NONARYGAMEQUIZ.png" class="link_header">
 	</div>
-	<p>
-		The Nonary Quiz <br>
-		A quiz for the Zero Escape series.<br>
-		A wonderful game series and this quiz was made in tribute to the creation of the game.
+	<p class="link_body">
+		The Nonary Quiz
+		<br>A quiz for the Zero Escape series.
+		<br>A wonderful game series and this quiz was made in tribute to the creation of the game.
 	</p>
 	<a href="nonary_game.html"> <img src="images/nonary_button.png"></a>
+</div>
+</div>
+
+<div>
+	<img src="images/ParrexionSamurai.png" class="side_picture">
 </div>
 
 <div>
 	<footer id="foot">
+<div>
+	<a href="https://twitter.com/ParrexionG" target="_blank">
+		<image class="footer_icon" src="images/TwitterIcon.png" alt="Link to Twitter"></a>
+	<a href="https://www.linkedin.com/in/alexander-frisk-9ab42ba4" target="_blank">
+		<image class="footer_icon" src="images/LinkedInIcon.png" alt="Link to LinkedIn"></a>
+</div>
 		<p class=foot>Made by Parrexion</p>
 		<!-- <a class=foot href="index2.html">Go back</a> -->
 		<a class=about href="Parrexion.html">About me</a>

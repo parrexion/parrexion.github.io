@@ -61,9 +61,9 @@
 <footer id="foot">
 <div>
 	<a href="https://twitter.com/ParrexionG" target="_blank">
-		<image class="footer_icon" src="images/TwitterIcon.png" alt="Link to Twitter"></a>
+		<image class="link_icon" src="images/TwitterIcon.png" alt="Link to Twitter"></a>
 	<a href="https://www.linkedin.com/in/alexander-frisk-9ab42ba4" target="_blank">
-		<image class="footer_icon" src="images/LinkedInIcon.png" alt="Link to LinkedIn"></a>
+		<image class="link_icon" src="images/LinkedInIcon.png" alt="Link to LinkedIn"></a>
 </div>
 
 	<p class=foot>Made by Parrexion</p>
