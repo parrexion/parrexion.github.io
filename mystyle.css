@@ -44,6 +44,8 @@ footer {
 	padding: 50px;
 	width: 275px;
 	height: 275px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
 .intro {
