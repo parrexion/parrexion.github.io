@@ -1,7 +1,8 @@
 body {
 	color: white;
-	/*background-color: #AD2173;*/
-	background-color: #732313;
+	/* background-color: #732313; */
+	background-color: #4d614a;
+	background-image: linear-gradient(to bottom right, #555e24, #4d614a);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: fixed;
@@ -41,9 +42,7 @@ footer {
 }
 
 .side_picture {
-	padding: 50px;
-	width: 275px;
-	height: 275px;
+	height: 200px;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
@@ -53,19 +52,10 @@ footer {
 	margin: 50px auto;
 }
 
-.ryuuji {
-	width: 20%;
-	height: 30%;
-}
-
-.samurai {
-	width: 275px;
-	height: 275px;
-}
-
 .profile {
-	width: 20%;
-	height: 20%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 .abouttxt {
@@ -78,7 +68,7 @@ footer {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 	gap: 50px 30px;
 	padding: 10px;
 }
@@ -87,15 +77,15 @@ footer {
 	padding: 10px;
     border: 3px solid #FFFFFF;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 550px;
+	max-width: 450px;
 	text-align: center;
 	/* margin: auto; */
 }
 
 .links {
 	padding: 10px;
-	width: 550px;
-	height: 400px;
+	width: 400px;
+	height: 600px;
     border: 3px solid #FFFFFF;
 	display: inline-block;
 }
@@ -104,7 +94,7 @@ footer {
 	object-fit: contain;
 	/* object-fit: cover; */
 	max-width: 90%;
-	height: 130px;
+	height: 200px;
 }
 
 .link_body {
@@ -114,6 +104,7 @@ footer {
 
 .link_button {
 	margin-bottom: 10px;
+	width: 160px;
 }
 
 
@@ -127,8 +118,8 @@ footer {
 	color: white;
 }
 
-.about {
-	float: right;
+.return {
+	float: left;
 	margin: auto;
 }
 
