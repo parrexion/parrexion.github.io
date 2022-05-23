@@ -19,6 +19,10 @@ a:active {
   color: green;
 }
 
+h2 {
+	margin-top: 50px;
+}
+
 ul {
 	list-style-position: inside;
 	max-width: 800px;
@@ -93,6 +97,11 @@ footer {
 	max-width: 450px;
 	text-align: center;
 	/* margin: auto; */
+}
+
+.favourite-game {
+	width: 215px;
+	/* height: 215px; */
 }
 
 .links {
