@@ -95,8 +95,8 @@ footer {
 	padding: 10px;
     border: 3px solid #FFFFFF;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	min-width: 250px;
-	max-width: 450px;
+	min-width: 350px;
+	max-width: 500px;
 	text-align: center;
 	/* margin: auto; */
 }
