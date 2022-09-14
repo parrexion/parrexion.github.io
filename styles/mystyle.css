@@ -32,6 +32,12 @@ ul {
 
 footer {
 	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+footer-link {
+	text-align: center;
 	color: orange;
 	font-style: italic;
 	margin-top: 60px;
