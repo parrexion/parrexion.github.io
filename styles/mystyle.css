@@ -148,6 +148,18 @@ footer-link {
 	margin: 10px;
 	color: white;
 }
+.linktree_icon {
+	width: 128px;
+	height: 128px;
+	margin: 10px;
+	color: white;
+}
+.linktree_icon_yt {
+	width: 571px;
+	height: 128px;
+	margin: 10px;
+	color: white;
+}
 
 .return {
 	position: absolute;
