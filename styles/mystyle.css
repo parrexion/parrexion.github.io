@@ -11,12 +11,12 @@ body {
 
 a:link,
 a:visited {
-  color: orange;
+	color: orange;
 }
 
 a:hover,
 a:active {
-  color: green;
+	color: green;
 }
 
 h2 {
@@ -68,7 +68,7 @@ footer-link {
 
 .intro {
 	max-width: 800px;
-	margin: 50px auto;
+	margin: 0px auto 50px;
 }
 
 .profile {
@@ -107,6 +107,15 @@ footer-link {
 	/* margin: auto; */
 }
 
+.card-wide {
+	padding: 10px;
+    border: 3px solid #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	min-width: 350px;
+	margin: 0px 10px;
+	/* text-align: center; */
+}
+
 .favourite-game {
 	width: 215px;
 	/* height: 215px; */
@@ -140,6 +149,35 @@ footer-link {
 
 
 
+.navbar {
+	max-width: 800px;
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar-li {
+	float: left
+}
+
+.navbar-a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar-a:hover {
+	background-color: #111;
+}
+
+.navbar-active {
+	background-color: #111;
+}
+
 
 
 .footer_icon {
@@ -159,6 +197,14 @@ footer-link {
 	height: 128px;
 	margin: 10px;
 	color: white;
+}
+
+.linktree-container {
+	display: grid;
+	/* grid-template-columns: auto auto auto; */
+	grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+	gap: 50px 30px;
+	padding: 10px;
 }
 
 .return {
